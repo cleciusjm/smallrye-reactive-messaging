@@ -94,7 +94,7 @@
 
     <smallrye-vertx-mutiny-clients.version>3.3.0</smallrye-vertx-mutiny-clients.version>
     <smallrye-reactive-converters.version>3.0.0</smallrye-reactive-converters.version>
-    <mutiny-zero.version>1.0.0</mutiny-zero.version>
+    <mutiny-zero.version>1.1.0</mutiny-zero.version>
 
     <testcontainers.version>1.18.0</testcontainers.version>
 
@@ -689,7 +689,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <excludedGroups></excludedGroups>
+        <excludedGroups/>
         <groups>slow,flaky</groups>
       </properties>
     </profile>
