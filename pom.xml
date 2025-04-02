@@ -75,7 +75,7 @@
 
     <smallrye-config.version>3.2.1</smallrye-config.version>
     <smallrye-metrics.version>4.0.0</smallrye-metrics.version>
-    <smallrye-common.version>2.1.0</smallrye-common.version>
+    <smallrye-common.version>2.11.0</smallrye-common.version>
     <smallrye-health.version>4.0.0</smallrye-health.version>
     <smallrye-testing.version>2.3.0</smallrye-testing.version>
     <smallrye-fault-tolerance.version>6.2.2</smallrye-fault-tolerance.version>
@@ -689,7 +689,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <excludedGroups></excludedGroups>
+        <excludedGroups/>
         <groups>slow,flaky</groups>
       </properties>
     </profile>
